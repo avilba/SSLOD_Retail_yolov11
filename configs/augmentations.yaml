@@ -1,0 +1,12 @@
+mosaic: 1.0               # Mosaic augmentation (kombinasi 4 gambar)
+mixup: 0.2                # MixUp augmentation
+hsv_h: 0.02               # Adjust hue ±2%
+hsv_s: 0.7                # Adjust saturation ±70%
+hsv_v: 0.4                # Adjust brightness ±40%
+degrees: 5.0              # Random rotation ±5 degrees
+translate: 0.1            # Random translation ±10% of image dimensions
+scale: 0.5                # Random scaling ±50%
+shear: 2.0                # Shearing ±2%
+flipud: 0.1               # Vertical flip probability 10%
+fliplr: 0.5               # Horizontal flip probability 50%
+perspective: 0.0          # Perspective distortion

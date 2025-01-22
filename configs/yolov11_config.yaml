@@ -1,0 +1,15 @@
+#Parameter Training
+epochs: 20
+batch: 16
+img_size: 640
+device: '0'  #0 untuk GPU, -1 untuk CPU
+
+# Parameter Lain
+workers: 4
+project: experiments
+name: yolov11_training
+save_period: 10
+
+# Konfigurasi Model
+model: yolo11n.pt  # Nama file pretrained weights
+task: detect         # Tugas: detect, classify, segment, dll.

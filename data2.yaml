@@ -1,0 +1,13 @@
+train: D:/Project TA/dataset/labeled/images
+val: D:/Project TA/dataset/valid/images
+#test: dataset/test/images
+
+nc: 1
+names: ['object']
+
+roboflow:
+  workspace: jacobs-workspace
+  project: sku-110k
+  version: 6
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/jacobs-workspace/sku-110k/dataset/6
